@@ -25,7 +25,7 @@ site = input("Escribe el dominio: ")
 
 list_dorks = {
         "dir_listing" : "site:"+site+" intitle:index.of",
-        "conf_exposed" : "site:"+site+" ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:json",
+        "conf_exposed" : "site:"+site+" ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:json | ext:yml",
         "db_exposed" : "site:"+site+" ext:sql | ext:dbf | ext:mdb",
         "log_exposed" : "site:"+site+" ext:log",
         "bk_exposed" : "site:"+site+" ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup",
