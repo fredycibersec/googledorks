@@ -56,13 +56,13 @@ for dork in list_dorks.values():
         dorks.append(dork) 
 query = dorks[option-1]
 my_results_list = []
-for i in search(query,        # The query you want to run
-                tld = 'es',   # The top level domain
-                lang = 'es',  # The language
-                num = 10,     # Number of results per page
-                start = 0,    # First result to retrieve
-                stop = None,  # Last result to retrieve
-                pause = 2.0,  # Lapse between HTTP requests
+for i in search(query,           # The query you want to run
+                #tld = 'es',     # The top level domain (commented for new versions of search)
+                lang = 'es',     # The language
+                num_result = 10, # Number of results per page
+                #start = 0,      # First result to retrieve
+                #stop = None,    # Last result to retrieve
+                #pause = 2.0,    # Lapse between HTTP requests
                ):
         my_results_list.append(i)
         print(i)
