@@ -1,8 +1,18 @@
 # GoogleDorks
 
-Simple google dorks script made in Python for searching leaks in missconfigured or bad config sites/domains.
+Script simple realizado en Python para buscar a través de Google dorks en dominios con una configuración de privacidad erronea.
+
+_EN:_ Simple google dorks script made in Python for searching leaks in missconfigured or bad config sites/domains.
 
 Enjoy!
+
+## Requerimientos
+
+Se hace uso del módulo googlesearch. Puedes instalarlo con el siguiente comando:
+
+```bash
+python3 -m pip install googlesearch-python
+```
 
 ## Uso
 
