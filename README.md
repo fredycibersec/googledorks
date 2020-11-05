@@ -26,4 +26,4 @@ Escribe el dominio:
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia GNUv3 - mira el archivo [LICENSE.md](./LICENSE.md) para detalles
+Este proyecto está bajo la Licencia GNUv3 - mira el archivo [LICENSE](LICENSE) para detalles
