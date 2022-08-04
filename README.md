@@ -19,10 +19,10 @@ pip3 install google
 ## Uso
 
 ```bash
-python GoogleDorks.py
+python3 GoogleDorks.py
 ```
 
-```bash
+```
    ___                _     ___          _ 
   / __|___  ___  __ _| |___|   \ ___ _ _| |__ 
  | (┌ / _ \/ _ \/ _` | / -_) |) / _ \ '_| / / 
