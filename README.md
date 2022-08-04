@@ -11,7 +11,9 @@ Enjoy!
 Se hace uso del módulo googlesearch. Puedes instalarlo con el siguiente comando:
 
 ```bash
-python3 -m pip install googlesearch-python
+python3 -m pip install google
+or
+pip3 install google
 ```
 
 ## Uso
