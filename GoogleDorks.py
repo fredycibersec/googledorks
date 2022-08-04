@@ -1,7 +1,9 @@
 #!/usr/bin/env/ python3
 # -*- coding: utf-8 -*-
 
-# imports
+# instala googlesearch con:
+# pip3 install google
+# -----------------------------
 from googlesearch import search
 
 # Banner
@@ -54,16 +56,9 @@ print("")
 dorks = []
 for dork in list_dorks.values():
         dorks.append(dork) 
-query = dorks[option-1]
+query = search(dorks[option-1])
 my_results_list = []
-for i in search(query,           # The query you want to run
-                #tld = 'es',     # The top level domain (commented for new versions of search)
-                lang = 'es',     # The language
-                num_result = 10, # Number of results per page
-                #start = 0,      # First result to retrieve
-                #stop = None,    # Last result to retrieve
-                #pause = 2.0,    # Lapse between HTTP requests
-               ):
+for i in query:
         my_results_list.append(i)
         print(i)
 if my_results_list :
@@ -71,3 +66,4 @@ if my_results_list :
         print("Fin de la búsqueda.")        
 else:
         print("No se encontraron resultados.")
+
